@@ -331,12 +331,6 @@ select.year {
     margin: 2px 0 0 58px;
 }
 
-/*.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}*/
-
 /* ######## SORT RIGHT ######## */
 
 .section-right {
@@ -440,7 +434,7 @@ select.bolt {
 
 /* ######## CONTENT SIDBAR ######## */
 
-.www {
+.all-sidbar {
     margin-top: 17px;
     display: flex;
     justify-content: space-between;
