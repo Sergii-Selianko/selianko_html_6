@@ -467,13 +467,14 @@ select.bolt {
 }
 
 .sidbar li {
-    padding: 4px 0px 5px 37px;
+    padding: 3px 0px 3px 37px;
     display: block;
+    line-height: 19px;
+    font-size: 13px;
 }
 
 .sidbar a {
     color: #465961;
-    font-size: 13px;
     padding-left: 10px;
     background: url(../img/marker.png) no-repeat 0 6px;
 }
@@ -532,7 +533,8 @@ select.bolt {
     
     width: 525px;
     height: 625px;
-    background: linear-gradient( -0deg, rgb(35,75,93) 0%, rgb(118,141,151) 57%, rgb(201,207,209) 100%);
+    background: linear-gradient(to bottom, #e5e7e8 0%,#b7c4c9 50%,#93a7b0 100%);
+    border-radius: 2px;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
